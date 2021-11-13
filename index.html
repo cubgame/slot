@@ -1,50 +1,48 @@
-<!DOCTYPE html>
+<!DOTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>Slot Machine</title>
-    <link rel="icon" href="icon/yellowbike.ico">
-    <link rel="stylesheet" href="css/slot.css">
-  </head>
-  <body>
-    <header>
-      <a href="index.html" >
-        <div class="center">
-          <img src="icon/home.png" alt="ホーム">
-        </div>
-      </a>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <title>Quiz</title>
+  <link rel="icon" href="icon/yellowbike.ico">
+  <link rel="stylesheet" href="quiz.css">
+</head>
 
+<body>
+  <header>
+    <a href="https://cubgame.github.io/" >
+      <div class="center">
+          <!-- <img src="icon/home.png" alt="ホーム"> -->
+          <img src="./home.png" alt="ホーム">
+      </div>
+    </a>
+  </header>
 
-    <main>
-    </main>
-
-    <div id="spin"><p>SPIN</p></div>
-
-
+  <div class="container">
+    <img id="picture">
+    <p id="question"></p>
+    <ul id="choices"></ul>
+    <div id="btn" class="disabled">
+      次へ
     </div>
-    <script src="js/slot.js"></script>
-  </body>
+    <section id="result">
+        <p></p>
+        <a href="">さあ、もう1回！</a>
+    </section>
+  </div>
+  <script src="quiz.js"></script>
+</body>
 
-  <footer>
-    <ul>
-      <li>
-        <a href="mailto:shukki1104@gmail.com" target="_blank">
-          <img src="icon/mail.png" alt="メール送信">
-        </a>
-      </li>
-      <li>
-        <a href="http://mobileprints.com/profiles/shunki-hosoda/shop
-  " target="_blank">
-        <img src="icon/shop.png" alt="グッズはこちらから">
-        </a>
-      </li>
-      <li>
-        <a href="index.html" target="_blank">
-      <img src="icon/homebug.png" alt="他のゲームで遊ぶ">
-        </a>
-      </li>
-    </ul>
-      <p>(c) Shunki Hosoda</p>
-  </footer>
+<footer>
+  <ul>
+    <li>
+      <a href="https://cubgame.github.io/">
+        <!-- <img src="icon/home.png" alt="ホーム"> -->
+        <img src="./home.png" alt="ホーム">
+      </a>
+    </li>
+  </ul>
+    <p>(c) Shunki Hosoda</p>
+</footer>
+
+
 </html>
