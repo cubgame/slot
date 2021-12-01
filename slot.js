@@ -11,7 +11,7 @@
       this.timeoutId = undefined;
 
       this.stop = document.createElement("div");
-      this.stop.textContent = "STOP";
+      this.stop.textContent = "ストップ";
       this.stop.classList.add("stop", "inactive");
       this.stop.addEventListener("click", () =>{
         if(this.stop.classList.contains("inactive")){
